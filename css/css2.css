@@ -110,3 +110,30 @@ figure.content img {
     width: 35%; /* La imagen ocupará la mitad del espacio disponible */
     height: 5%;
 }
+
+/* *Parte 3 taller*/
+/* FOOTER" */
+footer {
+    padding: 25px;
+    /* Define el espacio de relleno en todas las direcciones, pero hay un error de sintaxis, debería ser "25px" */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Define la fuente del texto */
+    background-color: red;
+    /* Establece el color de fondo en rojo */
+    color: white;
+    /* Establece el color del texto en blanco */
+    font-size: 80px;
+    /* Aumenta el tamaño de fuente dentro del footer a 80 píxeles */
+    text-align: center;
+    /* Centra el texto horizontalmente dentro del footer */
+    margin-top: 15px;
+    /* Agrega un margen superior de 15 píxeles */
+    margin-bottom: 0;
+    /* Elimina el margen inferior */
+    position: absolute;
+    /* Establece la posición absoluta */
+    left: 0;
+    /* Ancla el footer a la izquierda */
+    right: 0;
+    /* Ancla el footer a la derecha */
+}
