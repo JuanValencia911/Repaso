@@ -31,3 +31,60 @@ h1 {
     margin: 0;
     /* Elimina los márgenes predeterminados del encabezado */
 }
+
+/* *Parte 2 taller*/
+/* Figure "IMAGEN" */
+figure {
+    background-color: white;
+    /* Establece el fondo blanco */
+    border: 2px solid grey;
+    /* Borde negro de 1 píxel */
+    padding: 24px;
+    /* Espacio de relleno de 24 píxeles en todos los lados */
+    margin-top: 40px;
+    /* Espacio más grande entre el título y la imagen */
+    margin-left: 150px;
+    /* Márgenes izquierdos de 150 píxeles */
+    margin-right: 150px;
+    /* Márgenes derechos de 150 píxeles */
+}
+
+figure img {
+    display: block;
+    /* Hace que la imagen sea un bloque en lugar de un elemento en línea */
+    margin: 0 auto;
+    /* Centra la imagen horizontalmente */
+}
+
+/*Boton*/
+button {
+    background-color: red;
+    /* Establece el fondo del botón en rojo */
+    color: white;
+    /* Establece el color del texto en blanco */
+    border: 1px solid gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Define la fuente del texto */
+    width: 300px;
+    /* Aumenta el ancho del botón */
+    height: 80px;
+    /* Aumenta la altura del botón */
+    margin: 0 auto;
+    /* Centra horizontalmente el botón con margen automático en los lados izquierdo y derecho */
+    text-align: center;
+    /* Centra el texto horizontalmente dentro del botón */
+    display: block;
+    /* Hace que el botón sea un elemento en bloque, ocupando todo el ancho disponible */
+    margin-top: 20px;
+    /* Agrega un margen superior de 20 píxeles para separar el botón de la imagen */
+}
+
+/*Etiqueta h2 dentro del boton*/
+h2 {
+    margin-top: 0;
+    /*Comentado: Elimina el margen superior (0 píxeles)*/
+    margin-bottom: 0;
+    /* Comentado: Elimina el margen inferior (0 píxeles) */
+    font-size: 35px;
+    /* Establece el tamaño de fuente en 35 píxeles */
+}
