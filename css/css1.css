@@ -1,0 +1,33 @@
+/* Cuerpo de la página */
+body {
+    margin: 0;
+    /* Elimina los márgenes predeterminados del cuerpo */
+    align-items: center;
+    /* Centra verticalmente los elementos hijos */
+    justify-content: center;
+    /* Centra horizontalmente los elementos hijos */
+    height: 100vh;
+    /* Establece la altura del cuerpo al 100% del viewport (ventana gráfica) */
+}
+
+/* Parte 1 taller/
+/* Encabezado "NAVBAR" */
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Establece la fuente */
+    background-color: red;
+    /* Establece el fondo en rojo */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    margin-bottom: 110px;
+    /* Espacio entre el encabezado y la imagen */
+}
+
+h1 {
+    color: white;
+    /* Establece el color del texto en blanco */
+    font-size: 62px;
+    /* Tamaño de fuente de 62 píxeles */
+    margin: 0;
+    /* Elimina los márgenes predeterminados del encabezado */
+}
